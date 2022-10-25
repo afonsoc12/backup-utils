@@ -7,7 +7,7 @@ on:
     paths:
       - 'Dockerfile'
       - '**.sh'
-  workflow_call:
+  workflow_dispatch:
 
 jobs:
   docker:
