@@ -39,7 +39,7 @@ jobs:
           platforms: linux/arm,linux/arm64,linux/amd64
           push: true
           tags: |
-            afonsoc12/backuo-utils:latest
+            afonsoc12/backup-utils:latest
             afonsoc12/backup-utils:${{ github.run_number }}
             ghcr.io/afonsoc12/backup-utils:latest
             ghcr.io/afonsoc12/backup-utils:${{ github.run_number }}
