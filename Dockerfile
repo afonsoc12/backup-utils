@@ -10,6 +10,7 @@ COPY versions.sh /usr/local/bin/versions
 
 RUN apk add -U --no-cache \
                tzdata \
+               tree \
                openssh-client-default \
                ca-certificates \
                rsync \
